@@ -16,6 +16,8 @@ This project demonstrates a hands-on implementation of Microsoft Sentinel (forme
 
 - Used a vulnerable virtual machine (Linux/Windows) as bait to attract threat actors.
 - Exposed select ports (SSH, RDP, etc.) to simulate a real-world attack surface.
+![Screenshot 2025-04-03 114408](https://github.com/user-attachments/assets/05bc895f-c258-48f6-8381-90994e0c06f1)
+![Screenshot 2025-04-03 115854](https://github.com/user-attachments/assets/93aef93b-986a-421b-941d-798b7a6787b4)
 
 ### 2. 📡 Connected to Microsoft Sentinel
 
@@ -47,12 +49,6 @@ This project demonstrates a hands-on implementation of Microsoft Sentinel (forme
 
 ---
 
-## 📸 Screenshots
-
-*(Insert screenshots here showing your heat map, queries, and dashboard visuals)*
-
----
-
 ## 📍 Example KQL Query
 
 ```kql
@@ -61,10 +57,6 @@ Syslog
 | extend attackerIP = extract("from ([\d\.]+)", 1, SyslogMessage)
 | summarize count() by attackerIP
 ```
-
-*Note: Used a Python script to enrich `attackerIP` with geolocation data.*
-
----
 
 ## 📦 Future Improvements
 
