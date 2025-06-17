@@ -33,6 +33,7 @@ This project demonstrates a hands-on implementation of Microsoft Sentinel (forme
 - Visualized data using:
   - **Azure Workbooks** for dynamic dashboards
   - **Heat map chart** showing global attack distribution
+![Screenshot 2025-04-03 142454](https://github.com/user-attachments/assets/9624fd1b-b425-409b-881f-ac5fb973be53)
 
 ---
 
@@ -82,11 +83,3 @@ Inspired by [Arturo G.'s Sentinel tutorial](https://medium.com/@arturo.g.jr/siem
 ## 🛡️ Why This Matters
 
 With the rising complexity of cyber threats, the ability to operationalize a SIEM like Microsoft Sentinel is a valuable skill in cloud security roles. This project simulates real-world attack monitoring and response using cloud-native infrastructure — and proves I can handle detection engineering and SOC-level monitoring in Azure.
-
----
-
-## 📇 Contact
-
-**Brody L.**  
-Cybersecurity & Cloud Enthusiast  
-[GitHub Profile](https://github.com/dennisbrody) | [LinkedIn](#)
